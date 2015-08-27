@@ -29,7 +29,7 @@ body{
   	transform: translateY(-50%);
 }
 
-.navbar-item:hover{
+.finished:hover{
 	opacity: .75;
 /*	color: #adcad1;*/
 /*	color: #7e7e7e;
@@ -39,6 +39,14 @@ body{
 
 .navbar-item a:visited{
 	color: inherit;
+}
+
+.navbar-item a{
+	text-decoration: none;
+}
+
+.unfinished{
+	opacity: .4;
 }
 
 .logo{

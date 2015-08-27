@@ -53,14 +53,18 @@ body{
     margin-top: 30px;
 }
 
-.navbar-item:hover{
+.finished:hover{
+/*	opacity: .5;*/
 	color: #7e7e7e;
-	/*color: #adcad1;*/
-
 }
 
-.navbar-item a:visited{
+.navbar-item a{
 	color: inherit;
+	text-decoration: none;
+}
+
+.unfinished{
+	opacity: .25;
 }
 
 #photo{
