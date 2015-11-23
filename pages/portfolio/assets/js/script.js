@@ -37,4 +37,10 @@ $(document).ready(function(){
 		$("#original-image").attr("src", empty);
 	})
 
+	$("#close-button").click(function() {
+		$("#modal-container").hide();
+		var empty = '';
+		$("#original-image").attr("src", empty);
+	})
+
 });

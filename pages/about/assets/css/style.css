@@ -84,8 +84,9 @@ body{
 }
 
 .scroll-item{
-	margin-bottom: 10px;
 	font-weight: 300;
+    margin: 10 0;
+    padding-left: 5px;
 }
 
 .scroll-item:hover{

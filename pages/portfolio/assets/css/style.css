@@ -102,6 +102,25 @@ body{
     top: 50%;
 }
 
+#close-button{
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: -15px;
+    height: 10px;
+    opacity: .5;
+}
+
+#close-button img{
+	height: 10px;
+	color: red;
+}
+
+#close-button:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
 #original-image{
 
 }
