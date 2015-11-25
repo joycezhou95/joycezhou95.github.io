@@ -41,9 +41,7 @@ body{
 
 .navbar-container{
 	width: 800px;
-	position: relative;
-	left: calc(50% - 400px);
-	/* margin-top: 10px; */
+    margin: 0 auto;
 }
 
 .navbar-item{
@@ -51,7 +49,7 @@ body{
     margin-left: 30px; 
     margin-right: 30px;
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 30px;
 }
 
@@ -79,5 +77,82 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+@media (max-width: 900px){
+	#contact{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 900px;
+	}
+}
+
+@media (max-width: 800px){
+	#resume{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 800px;
+	}
+}
+
+@media (max-width: 700px){
+	#skills{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 600px){
+	#projects{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	#portfolio{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 400px){
+	#about{
+		width: 90px;
+		display: block;
+		position: relative;
+		margin: 20 auto;
+	}
+
+	.navbar-container{
+		width: 400px;
+	}
 }
